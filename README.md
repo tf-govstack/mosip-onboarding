@@ -1,4 +1,4 @@
-# Partner Onboarding Utils
+## Partner Onboarding Utils
 
 ## Overview
 This repository contains Postman collection to onboard partners on to MOSIP. 
