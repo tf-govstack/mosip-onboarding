@@ -209,7 +209,7 @@ onboard_esignet_partner() {
 	--env-var partner-kc-username=$PARTNER_KC_USERNAME \
 	--env-var partner-organization-name=$PARTNER_ORGANIZATION_NAME \
     --env-var partner-type=$PARTNER_TYPE \
-    --env-var external-url=$EXTERNAL_URL \
+    --env-var external-url=api-internal.tfgovidbb.sandbox-playground.com \
 	--env-var policy-name=$POLICY_NAME \
 	--env-var keycloak-url=$KEYCLOAK_URL \
 	--env-var keycloak-admin-password="$KEYCLOAK_ADMIN_PASSWORD" \
@@ -255,7 +255,7 @@ onboard_relying_party_with_demo_oidc_client(){
 	--env-var partner-kc-username=$PARTNER_KC_USERNAME \
 	--env-var partner-organization-name=$PARTNER_ORGANIZATION_NAME \
     --env-var partner-type=$PARTNER_TYPE \
-    --env-var external-url=$EXTERNAL_URL \
+    --env-var external-url=api-internal.tfgovidbb.sandbox-playground.com \
 	--env-var policy-name=$POLICY_NAME \
 	--env-var logo-uri=$LOGO_URI \
 	--env-var redirect-uri=$REDIRECT_URI \
@@ -305,7 +305,7 @@ echo "Onboarding resident oidc client"
 	--env-var partner-organization-name=$PARTNER_ORGANIZATION_NAME \
     --env-var partner-type=$PARTNER_TYPE \
 	--env-var partner-domain=Auth \
-    --env-var external-url=$EXTERNAL_URL \
+    --env-var external-url=api-internal.tfgovidbb.sandbox-playground.com \
 	--env-var policy-name=$POLICY_NAME \
 	--env-var keycloak-url=$KEYCLOAK_URL \
 	--env-var keycloak-admin-password=$KEYCLOAK_ADMIN_PASSWORD \
@@ -394,9 +394,10 @@ KEYCLOAK_ADMIN_USERNAME="$( printenv KEYCLOAK_ADMIN_USER)"
 KEYCLOAK_ADMIN_PASSWORD=$( printenv admin-password )
 echo " KEYCLOAK ADMIN USER : $KEYCLOAK_ADMIN_USER"
 #echo " KEYCLOAK ADMIN PASSWORD : $KEYCLOAK_ADMIN_PASSWORD"
-URL="https://$(printenv mosip-api-internal-host)"
-EXTERNAL_URL=""https://$(printenv mosip-api-internal-host)"
+#URL="https://$(printenv mosip-api-internal-host)"
 #EXTERNAL_URL="https://$(printenv mosip-api-host)"
+URL="https://api-internal.tfgovidbb.sandbox-playground.com"
+EXTERNAL_URL="https://api-internal.tfgovidbb.sandbox-playground.com"
 
 echo "URL : $URL and $EXTERNAL_URL"
 
