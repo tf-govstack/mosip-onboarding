@@ -9,6 +9,7 @@ on:
       - 1.2.*
       - master
       - MOSIP-23963
+      - tf*
   
 jobs:
 
