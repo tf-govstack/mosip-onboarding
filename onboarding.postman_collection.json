@@ -70,9 +70,9 @@
 							]
 						},
 						"url": {
-							"raw": "{{keycloak-url}}/auth/realms/master/protocol/openid-connect/token",
+							"raw": "https://iam.tfgovidbb.sandbox-playground.com/auth/realms/master/protocol/openid-connect/token",
 							"host": [
-								"{{keycloak-url}}"
+								"https://iam.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"auth",
@@ -122,9 +122,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{keycloak-url}}/auth/admin/realms/mosip/users",
+							"raw": "https://iam.tfgovidbb.sandbox-playground.com/auth/admin/realms/mosip/users",
 							"host": [
-								"{{keycloak-url}}"
+								"https://iam.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"auth",
@@ -183,9 +183,9 @@
 							}
 						],
 						"url": {
-							"raw": "{{keycloak-url}}/auth/admin/realms/mosip/users?username={{partner-manager-username}}",
+							"raw": "https://iam.tfgovidbb.sandbox-playground.com/auth/admin/realms/mosip/users?username={{partner-manager-username}}",
 							"host": [
-								"{{keycloak-url}}"
+								"https://iam.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"auth",
@@ -249,9 +249,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{keycloak-url}}/auth/admin/realms/mosip/roles",
+							"raw": "https://iam.tfgovidbb.sandbox-playground.com/auth/admin/realms/mosip/roles",
 							"host": [
-								"{{keycloak-url}}"
+								"https://iam.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"auth",
@@ -289,9 +289,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{keycloak-url}}/auth/admin/realms/mosip/users/{{partner-kc-userid}}/role-mappings/realm",
+							"raw": "https://iam.tfgovidbb.sandbox-playground.com/auth/admin/realms/mosip/users/{{partner-kc-userid}}/role-mappings/realm",
 							"host": [
-								"{{keycloak-url}}"
+								"https://iam.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"auth",
@@ -2791,9 +2791,9 @@
 							]
 						},
 						"url": {
-							"raw": "{{keycloak-url}}/auth/realms/master/protocol/openid-connect/token",
+							"raw": "https://iam.tfgovidbb.sandbox-playground.com/auth/realms/master/protocol/openid-connect/token",
 							"host": [
-								"{{keycloak-url}}"
+								"https://iam.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"auth",
@@ -2823,9 +2823,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{keycloak-url}}/auth/admin/realms/mosip/users/{{partner-kc-userid}}",
+							"raw": "https://iam.tfgovidbb.sandbox-playground.com/auth/admin/realms/mosip/users/{{partner-kc-userid}}",
 							"host": [
-								"{{keycloak-url}}"
+								"https://iam.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"auth",
