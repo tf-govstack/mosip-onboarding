@@ -1148,9 +1148,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{external-url}}/v1/esignet/system-info/certificate?applicationId=ROOT",
+							"raw": "https://api-internal.tfgovidbb.sandbox-playground.com/v1/esignet/system-info/certificate?applicationId=ROOT",
 							"host": [
-								"{{external-url}}"
+								"https://api-internal.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"v1",
@@ -1215,9 +1215,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{external-url}}/v1/esignet/system-info/certificate?applicationId=OIDC_SERVICE",
+							"raw": "https://api-internal.tfgovidbb.sandbox-playground.com/v1/esignet/system-info/certificate?applicationId=OIDC_SERVICE",
 							"host": [
-								"{{external-url}}"
+								"https://api-internal.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"v1",
@@ -1270,9 +1270,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{external-url}}/v1/esignet/system-info/certificate?applicationId=OIDC_PARTNER",
+							"raw": "https://api-internal.tfgovidbb.sandbox-playground.com/v1/esignet/system-info/certificate?applicationId=OIDC_PARTNER",
 							"host": [
-								"{{external-url}}"
+								"https://api-internal.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"v1",
@@ -1916,9 +1916,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{external-url}}/v1/esignet/system-info/uploadCertificate",
+							"raw": "https://api-internal.tfgovidbb.sandbox-playground.com/v1/esignet/system-info/uploadCertificate",
 							"host": [
-								"{{external-url}}"
+								"https://api-internal.tfgovidbb.sandbox-playground.com"
 							],
 							"path": [
 								"v1",
