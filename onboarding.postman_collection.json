@@ -59,12 +59,12 @@
 								},
 								{
 									"key": "username",
-									"value": "{{keycloak-admin-username}}",
+									"value": "admin",
 									"type": "text"
 								},
 								{
 									"key": "password",
-									"value": "{{keycloak-admin-password}}",
+									"value": "d3c8J6ktDt",
 									"type": "text"
 								}
 							]
@@ -2780,12 +2780,12 @@
 								},
 								{
 									"key": "username",
-									"value": "{{keycloak-admin-username}}",
+									"value": "admin",
 									"type": "text"
 								},
 								{
 									"key": "password",
-									"value": "{{keycloak-admin-password}}",
+									"value": "d3c8J6ktDt",
 									"type": "text"
 								}
 							]
